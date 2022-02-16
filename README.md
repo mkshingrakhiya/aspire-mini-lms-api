@@ -57,8 +57,3 @@ $ docker compose exec aspire.localhost bash -c "php artisan test"
 ## License
 
 Feel free to use this however you want.
-
-
-<!-- TODO: test validation exception in login -->
-<!-- TODO: test queues in event -->
-<!-- TODO: test listeners -->
