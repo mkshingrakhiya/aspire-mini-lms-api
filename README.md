@@ -34,6 +34,8 @@ $ ./init.sh
    2. Request **Reject Loan** to reject the loan application. The status will be `REJECTED`
 4. **Submit Repayment** endpoint is used to pay for the installments
 
+> The base URL is already set in the Postman requests, however if it does not have it set already, please set `$apiUrl` gloabally with either `aspire.localhost[:APP_PORT]` or `localhost[:APP_PORT]`.
+
 > In source code, there are a few comments prefixed with `NOTE:` and `TODO:` which describes the ideal/required flow.
 
 > This project only uses contracts (`interfaces`) in the authentication section to demonstrate different ways to achieve the same results.
@@ -48,6 +50,8 @@ $ ./init.sh
 To check Postman API, [click here.](https://www.postman.com/lunar-equinox-790888/workspace/aspire-test/api/f1b9630d-b9b5-4205-a1ef-55de0fd382e8)
 
 ## Test
+
+> This demo does not contain any unit tests since the code does not use any custom standalone code.
 
 ```
 $ docker compose exec aspire.localhost bash -c "php artisan test"
