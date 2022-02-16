@@ -43,10 +43,9 @@ $ ./init.sh
 - **List Loans:** This can be used to list all the loans for each user type.
 - **List Repayments:** It returns all the repayment entries for a particular loan.
 
-## Postman Collection
+## Postman API
 
-<!-- TODO: Add postman collection link -->
-Link to postman collection
+To check Postman API, [click here.](https://www.postman.com/lunar-equinox-790888/workspace/aspire-test/api/f1b9630d-b9b5-4205-a1ef-55de0fd382e8)
 
 ## Test
 
