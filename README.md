@@ -22,7 +22,7 @@ Docker is required to install this project in one command.
 To install this project in a single command, please make sure that port `80` and `3306` is available before you execute the below script. If the ports are unavailable, you can set different ports in `APP_PORT` and `FORWARD_DB_PORT` variables respectively in the `.env.example` file.
 
 ```
-$ init.sh
+$ ./init.sh
 ```
 
 ## How to Use
